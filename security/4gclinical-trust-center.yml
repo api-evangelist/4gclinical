@@ -1,0 +1,92 @@
+generated: '2026-09-05'
+method: searched
+probe: true
+source: https://www.4gclinical.com/trust-center
+url: https://www.4gclinical.com/trust-center
+name: 4G Clinical Trust Center
+sections:
+- Security and Quality
+- Quality System
+- Insights and Publications
+- Data Privacy
+- Sustainability
+- FAQs
+certifications:
+- id: soc2-type2
+  name: SOC 2 Type 2
+  criteria: [Security, Availability, Confidentiality]
+  period: 12-month period ending 2025-08-31
+  auditor: certified public accounting firm (not named on the page)
+  report_available: on request via the Security and Quality contact form
+- id: dpf
+  name: EU-US Data Privacy Framework (incl. UK Extension and Swiss-US DPF)
+  status: active participant, certified with the U.S. Department of Commerce
+- id: ecovadis
+  name: EcoVadis
+  status: Committed Badge, assessment completed 2025-08
+- id: un-global-compact
+  name: United Nations Global Compact
+  status: participant / signatory support
+regulatory_frameworks:
+- id: 21-cfr-part-11
+  name: 21 CFR Part 11 — Electronic Records and Electronic Signatures
+  claim: compliance maintained through the Quality Management System
+- id: eu-annex-11
+  name: EudraLex Volume 4 Annex 11 — Computerised Systems
+  claim: compliance maintained through the Quality Management System
+- id: gdpr
+  name: GDPR (EU) 2016/679
+  claim: compliant as a data processor; Article 27 representative not required (EU establishment
+    in the Netherlands)
+- id: ccpa
+  name: California Consumer Privacy Act (as amended)
+  claim: compliant
+- id: alcoa-plus-plus
+  name: ALCOA++ data integrity principles
+  claim: adhered to via QMS controls, audit trails and access management
+quality_system:
+  capa: documented Corrective and Preventive Action process, severity-categorised and tracked
+    to closure
+  audit_trail: 60+ audit tables capturing user, timestamp, and old/new values; human-readable
+    reports for inspection
+  validation: validation plans, requirements, test scripts, traceability matrices and
+    statements of regulatory compliance under change control
+  access_control: unique credentials, role-based access control, multi-factor authentication
+  reviews: quarterly governance meetings with clients (delivery timelines, UAT defects,
+    support resolution, CAPA metrics)
+hipaa:
+  covered_entity: false
+  business_associate: false
+  rationale: >-
+    4G Clinical states it receives only pseudonymized subject IDs and does not hold the
+    information required to re-identify a subject, so it is neither a covered entity nor a
+    business associate under HIPAA.
+registrations:
+- registry: EMA Organisation Management Service (OMS)
+  entries:
+  - org: 4G Clinical LLC (US)
+    id: ORG-100042775
+  - org: 4G Clinical B.V. (Netherlands)
+    id: ORG-100044721
+  url: https://iris.ema.europa.eu/locations/
+not_claimed:
+- ISO 27001
+- ISO 9001
+- HITRUST
+- FedRAMP
+- PCI DSS
+- CSA STAR
+subprocessors:
+  url: https://www.4gclinical.com/subprocessors
+  last_updated: '2025-12-10'
+  count: 18
+  hosting: Amazon Web Services Inc. (USA) and Amazon Web Services EMEA SARL (EU)
+evidence:
+- source: https://www.4gclinical.com/trust-center
+  http_status: 200
+  fetched: '2026-09-05'
+  keywords: [soc 2 type 2, 21 cfr part 11, annex 11, gdpr, data privacy framework, alcoa++,
+    trust center]
+- source: https://www.4gclinical.com/subprocessors
+  http_status: 200
+  fetched: '2026-09-05'

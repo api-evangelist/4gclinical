@@ -1,18 +1,54 @@
 aid: 4gclinical
 name: 4G Clinical
-description: '4G Clinical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: '4G Clinical is a clinical-trial technology company headquartered in Wellesley,
+  Massachusetts, building randomization and trial supply management (RTSM) software for
+  biotech, pharmaceutical and CRO sponsors. Its flagship platform, Prancer RTSM, uses natural
+  language processing to read a written RTSM specification and generate a deployable
+  randomization and supply system, and is sold alongside Prancer Lite for early-phase studies,
+  the Prancer RTSM Inventory Platform for investigator-sponsored trials, 4C Supply for clinical
+  supply forecasting and scenario planning, and 4G DataHub for portfolio-level study data
+  delivery. The company operates a production API host at api.4gclinical.com and markets
+  API-enabled data access, Enterprise Prancer Integrations and EDC/CTMS/depot connectivity, but
+  publishes no public developer portal, API reference or machine-readable contract: integration
+  scope is settled inside a sponsor engagement rather than on the public web.'
 url: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/apis.yml
+image: https://www.4gclinical.com/hubfs/4G-Clinical-logo-black.svg
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-09-05'
 modified: '2026-09-05'
 tags:
+- Clinical Trials
+- Life Sciences
+- Randomization
+- Trial Supply Management
+- RTSM
+- Clinical Supply Chain
+- Pharmaceutical
+- Healthcare
+- Forecasting
 - Company
-apis: []
+apis:
+- name: 4G Clinical API
+  description: 'Production API host operated by 4G Clinical on AWS API Gateway at
+    api.4gclinical.com. Anonymous requests to every probed path return HTTP 403
+    ForbiddenException, so no route, contract or discovery document is reachable without
+    sponsor credentials. 4G Clinical describes the surface in marketing terms as "API-enabled
+    access for sponsor systems, dashboards, and reporting environments" (4G DataHub) plus
+    Enterprise Prancer Integrations, and its own vulnerability disclosure policy puts
+    "public-facing systems and APIs" in scope. No OpenAPI, GraphQL, AsyncAPI, WSDL or MCP
+    manifest is published; see x-coverage.'
+  humanURL: https://www.4gclinical.com/clinical-data-integrations-reporting
+  baseURL: https://api.4gclinical.com
+  image: https://www.4gclinical.com/hubfs/4G-Clinical-logo-black.svg
+  tags:
+  - Clinical Trials
+  - Integrations
+  - RTSM
+  properties:
+  - type: Website
+    url: https://www.4gclinical.com/technology#Integrations
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -20,4 +56,60 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://equityzen.com/company/4gclinical
+  url: https://www.4gclinical.com/
+- type: Blog
+  url: https://www.4gclinical.com/blog
+- type: Support
+  url: https://support.4gclinical.com/hc/en-us
+- type: GitHubOrganization
+  url: https://github.com/4GClinical
+- type: Login
+  url: https://portal.4gclinical.com/
+- type: PrivacyPolicy
+  url: https://www.4gclinical.com/legal
+- type: Compliance
+  url: https://www.4gclinical.com/trust-center
+- type: Security
+  url: https://www.4gclinical.com/vulnerability-disclosure
+- type: TrustCenter
+  url: security/4gclinical-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/4gclinical-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/4gclinical-domain-security.yml
+- type: Conformance
+  url: conformance/4gclinical-conformance.yml
+- type: Lifecycle
+  url: lifecycle/4gclinical-lifecycle.yml
+- type: Plans
+  url: plans/4gclinical-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/4gclinical-rate-limits.yml
+- type: Packages
+  url: packages/4gclinical-packages.yml
+- type: LLMsTxt
+  url: llms/4gclinical-llms.txt
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 10
+  pass: local-v3
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: >-
+    4G Clinical runs a live production API host at api.4gclinical.com (AWS API Gateway) that
+    answers HTTP 403 ForbiddenException to every anonymous path including /openapi.json and
+    /.well-known/*, and its 360-URL sitemap contains no developer portal, API reference or
+    machine-readable contract — the 4G DataHub and Enterprise Prancer Integrations surfaces are
+    described only in marketing prose and scoped inside a sponsor engagement.
+  evidence:
+  - url: https://api.4gclinical.com/openapi.json
+    status: 403
+  - url: https://api.4gclinical.com/.well-known/oauth-protected-resource
+    status: 403
+  - url: https://www.4gclinical.com/clinical-data-integrations-reporting
+    status: 200
+  - url: https://www.4gclinical.com/pricing
+    status: 404
+  checked: '2026-09-05'

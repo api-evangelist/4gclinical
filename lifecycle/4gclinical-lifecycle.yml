@@ -1,0 +1,48 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.4gclinical.com/ (site-wide search 2026-09-05)
+versioning:
+  scheme: null
+  current: null
+  docs: null
+  note: >-
+    No public API versioning policy. 4G Clinical names generations of the product (Prancer
+    RTSM is described as its "4th generation" RTSM system) but publishes no API version
+    scheme, no dated releases and no version header contract.
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+  note: No public deprecation or Sunset/Deprecation (RFC 8594) policy was found.
+sla:
+  url: null
+  uptime_target: null
+  note: >-
+    Availability is asserted through the SOC 2 Type 2 report (Availability trust services
+    criterion) rather than a published uptime SLA. Quarterly governance meetings with clients
+    review delivery timelines, UAT defect counts and support resolution times — a contractual
+    review cadence, not a public SLA.
+status_page: null
+status_page_probe:
+  candidates:
+  - url: https://status.4gclinical.com
+    result: NXDOMAIN
+  - url: https://www.4gclinical.com/status
+    status: 404
+  - url: https://4gclinical.statuspage.io
+    status: 200
+    verdict: false positive — redirects to https://www.atlassian.com/software/statuspage
+    negative_control:
+      url: https://4gclinical-nope-7f3ab91c.statuspage.io
+      status: 200
+      result: same Atlassian marketing redirect, so the 200 proves nothing
+  conclusion: No status page. No StatusPage pointer emitted.
+changelog: null
+changelog_note: >-
+  No dated changelog or release-notes page exists on 4gclinical.com. Product news is published
+  as marketing posts under /news and /blog, undated as a release record.
+support:
+  help_center: https://support.4gclinical.com/hc/en-us
+  platform: Zendesk
+  note: End-user help center for RTSM study users (account activation, sign-in, site tasks).
+    It documents the application, not an API.
+deprecated_operations: []

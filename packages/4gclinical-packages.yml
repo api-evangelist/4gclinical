@@ -1,0 +1,67 @@
+generated: '2026-09-05'
+method: searched
+source: public package-registry search, 2026-09-05
+package_count: 0
+packages: []
+note: >-
+  No first-party 4G Clinical client library exists in any public package registry. 4G Clinical
+  ships no SDK because it publishes no public API contract — integration is built per sponsor
+  by 4G Clinical's own integrations team (the "integrations product is a separate microservice"
+  described on /technology). No SDKs pointer is emitted in apis.yml, and no version/published
+  currency fields are recorded because there is no package to date.
+registries_searched:
+- registry: npm
+  query: '4gclinical'
+  endpoint: https://registry.npmjs.org/-/v1/search?text=4gclinical
+  results: 0
+- registry: npm
+  query: 'prancer rtsm'
+  endpoint: https://registry.npmjs.org/-/v1/search?text=prancer%20rtsm
+  results: 2
+  verdict: neither result (swarmhack-cli, react-ecosystem-snippets) is related to 4G Clinical
+- registry: pypi
+  query: '4gclinical'
+  endpoint: https://pypi.org/pypi/4gclinical/json
+  status: 404
+- registry: pypi
+  query: 'prancer-rtsm'
+  endpoint: https://pypi.org/pypi/prancer-rtsm/json
+  status: 404
+- registry: github
+  query: org 4GClinical
+  endpoint: https://api.github.com/orgs/4gclinical/repos
+  results: 1
+  verdict: >-
+    The single public repository is a fork of `language_data` (a supplement to the `langcodes`
+    Python package) last pushed 2024-03-18. It is upstream open source, not a 4G Clinical
+    client library, and is not recorded as a package here. The org is confirmed as 4G
+    Clinical's by its avatar, which is the company wordmark logo.
+- registry: maven-central
+  query: '4gclinical'
+  endpoint: https://search.maven.org/solrsearch/select?q=4gclinical
+  results: 0
+- registry: nuget
+  query: '4gclinical'
+  endpoint: https://azuresearch-usnc.nuget.org/query?q=4gclinical
+  results: 0
+- registry: rubygems
+  query: '4gclinical'
+  endpoint: https://rubygems.org/api/v1/search.json?query=4gclinical
+  results: 0
+- registry: crates.io
+  query: '4gclinical'
+  endpoint: https://crates.io/api/v1/crates?q=4gclinical
+  results: 0
+- registry: packagist
+  query: '4gclinical'
+  endpoint: https://packagist.org/search.json?q=4gclinical
+  results: 14
+  verdict: >-
+    All 14 are unrelated substring matches on "clinical" (clinically/prism-bedrock,
+    tutor/clinicaltrials, endeavors/fhir-clinical, ...). None is published by or for 4G
+    Clinical.
+- registry: pkg.go.dev
+  query: github.com/4gclinical/
+  endpoint: https://proxy.golang.org/github.com/4gclinical/@v/list
+  status: 404
+  results: 0

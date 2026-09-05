@@ -1,0 +1,21 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.4gclinical.com/ (site-wide search 2026-09-05)
+plan_count: 0
+plans: []
+pricing_model: enterprise-sales-only
+note: >-
+  4G Clinical publishes no pricing at all. https://www.4gclinical.com/pricing returns HTTP 404
+  and no pricing, plans, tier or quota page appears anywhere in the site's 360-URL sitemap.
+  Commercial engagement runs through demo-request forms (/request-a-demo,
+  /request-a-demo-prancer-rtsm, /request-a-demo-4c-supply) and the /contact-us form. RTSM is
+  sold per study or per portfolio under a sponsor master services agreement, so there is no
+  self-serve tier to record. An honest zero, not an unchecked field.
+evidence:
+- url: https://www.4gclinical.com/pricing
+  status: 404
+- url: https://www.4gclinical.com/request-a-demo
+  status: 200
+- url: https://www.4gclinical.com/sitemap.xml
+  status: 200
+  note: 360 URLs, none matching /pricing, /plans or /packages

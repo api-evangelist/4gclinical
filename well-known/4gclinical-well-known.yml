@@ -1,0 +1,292 @@
+generated: '2026-09-05'
+method: probed
+source: live GET of the named /.well-known path list on every host in apis.yml, 2026-09-05
+hit_count: 0
+hosts:
+- host: https://4gclinical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 404
+    file: null
+- host: https://www.4gclinical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 404
+    file: null
+- host: https://api.4gclinical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/ucp.json
+    status: 403
+    file: null
+  - path: /.well-known/acp.json
+    status: 403
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 403
+    file: null
+  - path: /.well-known/apis.json
+    status: 403
+    file: null
+  - path: /apis.json
+    status: 403
+    file: null
+  - path: /apis.yml
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+  - path: /llms.txt
+    status: 403
+    file: null
+- host: https://portal.4gclinical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    file: null
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 200
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+  - path: /.well-known/ucp.json
+    status: 200
+    file: null
+  - path: /.well-known/acp.json
+    status: 200
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 200
+    file: null
+  - path: /.well-known/apis.json
+    status: 200
+    file: null
+  - path: /apis.json
+    status: 200
+    file: null
+  - path: /apis.yml
+    status: 200
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 200
+    file: null
+  - path: /.well-known/agent.json
+    status: 200
+    file: null
+  - path: /llms.txt
+    status: 200
+    file: null
+- host: https://support.4gclinical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 404
+    file: null
+path_echo_control: failed on portal.4gclinical.com; passed on all other hosts
+soft_404_control:
+- host: https://4gclinical.com
+  path: /.well-known/4gclinical-negative-control-7f3ab91c.json
+  status: 404
+  size: 2000
+  result: passed
+- host: https://www.4gclinical.com
+  path: /.well-known/4gclinical-negative-control-7f3ab91c.json
+  status: 404
+  size: 2000
+  result: passed
+- host: https://api.4gclinical.com
+  path: /.well-known/4gclinical-negative-control-7f3ab91c.json
+  status: 403
+  size: 23
+  result: passed
+- host: https://portal.4gclinical.com
+  path: /.well-known/4gclinical-negative-control-7f3ab91c.json
+  status: 200
+  size: 189376
+  result: failed
+- host: https://support.4gclinical.com
+  path: /.well-known/4gclinical-negative-control-7f3ab91c.json
+  status: 404
+  size: 2000
+  result: passed
+notes:
+- 'No document was served on any host. Nothing was saved to disk, so every documents[] row carries file:
+  null and NO WellKnown / SecurityTxt / APICatalog pointer is emitted in apis.yml.'
+- 'portal.4gclinical.com is a catch-all single-page app: it answered HTTP 200 with a byte-identical 189,376-byte
+  HTML shell (title "4G Clinical | External Client Portal") for every path probed, including the negative
+  control that cannot exist. Every 200 on that host is a false positive and none was counted.'
+- api.4gclinical.com is a live AWS API Gateway that answers HTTP 403 ForbiddenException to every anonymous
+  request, including /.well-known/* — a gate, not an absence.
+- 4gclinical.com and www.4gclinical.com are HubSpot CMS and returned a real 404 page for every path.
+- support.4gclinical.com is Zendesk and returned a real 404 page for every path.
