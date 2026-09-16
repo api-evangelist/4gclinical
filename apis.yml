@@ -25,6 +25,17 @@ tags:
 - Trial Supply Management
 - RTSM
 - Clinical Supply Chain
+- Pharmaceuticals
+- Healthcare
+- Forecasting
+- Company
+tags_raw:
+- Clinical Trials
+- Life Sciences
+- Randomization
+- Trial Supply Management
+- RTSM
+- Clinical Supply Chain
 - Pharmaceutical
 - Healthcare
 - Forecasting
@@ -43,6 +54,10 @@ apis:
   baseURL: https://api.4gclinical.com
   image: https://www.4gclinical.com/hubfs/4G-Clinical-logo-black.svg
   tags:
+  - Clinical Trials
+  - Integration
+  - RTSM
+  tags_raw:
   - Clinical Trials
   - Integrations
   - RTSM
