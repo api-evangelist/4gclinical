@@ -64,5 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-4G Clinical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/4gclinical
+4G Clinical is a clinical-trial technology company headquartered in Wellesley, Massachusetts, building randomization and trial supply management (RTSM) software for biotech, pharmaceutical and CRO sponsors. Its flagship platform, Prancer RTSM, uses natural language processing to read a written RTSM specification and generate a deployable randomization and supply system, and is sold alongside Prancer Lite for early-phase studies, the Prancer RTSM Inventory Platform for investigator-sponsored trials, 4C Supply for clinical supply forecasting and scenario planning, and 4G DataHub for portfolio-level study data delivery. The company operates a production API host at api.4gclinical.com and markets API-enabled data access, Enterprise Prancer Integrations and EDC/CTMS/depot connectivity, but publishes no public developer portal, API reference or machine-readable contract: integration scope is settled inside a sponsor engagement rather than on the public web.
+
+**Areas:** Clinical Trials · Life Sciences · Randomization · Trial Supply Management · RTSM · Clinical Supply Chain · Pharmaceuticals · Healthcare · Forecasting · Company
+
+## 4G Clinical on APIs.io
+
+Everything profiled for 4G Clinical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/4gclinical/](https://apis.io/providers/4gclinical/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [4G Clinical API](https://apis.io/apis/4gclinical/4g-clinical-api/) — Production API host operated by 4G Clinical on AWS API Gateway at api.4gclinical.com. Anonymous requests to every probed path return HTTP 403…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [4Gclinical Domain Security](https://apis.io/security/4gclinical/4gclinical-domain-security/)
+- [4Gclinical Trust Center](https://apis.io/security/4gclinical/4gclinical-trust-center/)
+- [4Gclinical Vulnerability Disclosure](https://apis.io/security/4gclinical/4gclinical-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [4Gclinical Plans Pricing](https://apis.io/plans/4gclinical/4gclinical-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [4Gclinical Rate Limits](https://apis.io/rate-limits/4gclinical/4gclinical-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.4gclinical.com/)
+- [Support](https://support.4gclinical.com/hc/en-us)
+- [Blog](https://www.4gclinical.com/blog)
+- [Security](https://www.4gclinical.com/vulnerability-disclosure)
+- [Compliance](https://www.4gclinical.com/trust-center)
+- [Privacy policy](https://www.4gclinical.com/legal)
+- [GitHub](https://github.com/4GClinical)
+
+## API Evangelist rating
+
+**Kin Score 19.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 32.9 |
+
+**Agent readiness 5.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/4gclinical/](https://apis.io/providers/4gclinical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 4G Clinical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/4gclinical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
