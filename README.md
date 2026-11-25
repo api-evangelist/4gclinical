@@ -84,21 +84,21 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [4Gclinical Domain Security](https://apis.io/security/4gclinical/4gclinical-domain-security/)
-- [4Gclinical Trust Center](https://apis.io/security/4gclinical/4gclinical-trust-center/)
-- [4Gclinical Vulnerability Disclosure](https://apis.io/security/4gclinical/4gclinical-vulnerability-disclosure/)
+- [4G Clinical Domain Security](https://apis.io/security/4gclinical/4gclinical-domain-security/)
+- [4G Clinical Trust Center](https://apis.io/security/4gclinical/4gclinical-trust-center/)
+- [4G Clinical Vulnerability Disclosure](https://apis.io/security/4gclinical/4gclinical-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [4Gclinical Plans Pricing](https://apis.io/plans/4gclinical/4gclinical-plans-pricing/)
+- [4G Clinical Plans Pricing](https://apis.io/plans/4gclinical/4gclinical-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [4Gclinical Rate Limits](https://apis.io/rate-limits/4gclinical/4gclinical-rate-limits/)
+- [4G Clinical Rate Limits](https://apis.io/rate-limits/4gclinical/4gclinical-rate-limits/)
 
 ## Where to find this API
 
@@ -114,18 +114,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 19.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 21.4** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 66.1 |
 | Contract quality | 0.0 |
 | Contract governance | 18.2 |
-| Operational transparency | 13.2 |
+| Operational transparency | 14.3 |
 | Developer ergonomics | 7.1 |
-| Access clarity | 32.9 |
+| Access clarity | 40.4 |
 
-**Agent readiness 5.4** — agent-aware
+**Agent readiness 5.3** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -148,6 +148,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 20.3** — Health
 
